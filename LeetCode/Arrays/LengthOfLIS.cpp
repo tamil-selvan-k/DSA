@@ -1,5 +1,5 @@
 class Solution {
-public:
+    public:
     int lengthOfLIS(vector<int>& arr) {
         int n = arr.size();
         vector<int> l(n, 1);
