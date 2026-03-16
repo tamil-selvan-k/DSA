@@ -4,14 +4,14 @@ public class WhichRabbitWillTakeCarrotFirst {
   static class Pair{
     int row, col, steps; char rab;
     public Pair(int row, int col, char rab, int steps) {
-      this.row = row;
+      this.row = row; 
       this.col = col;
       this.rab = rab;
       this.steps = steps;
     }
   }
 
-  static int[] r = {-1, 0, 1, 0};
+  static int[] r = {-1, 0, 1, 0};  
   static int[] c = {0, 1, 0, -1};
 
   static boolean[][] vis1, vis2;
