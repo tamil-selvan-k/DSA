@@ -1,5 +1,6 @@
 import java.util.*;
 public class TwoDigitStringsCodeforces {
+	// Codeforces Two Digit Strings
     private static void exec(Scanner get) {
         String str1 = get.nextLine().trim();
         String str2 = get.nextLine().trim();
